@@ -1,0 +1,29 @@
+@use "../utils/mixins" as *;
+section {
+  margin: 40px;
+  color: #696969;
+  @include CenterByFlex;
+  flex-direction: column;
+}
+.ourStory {
+  width: 800px;
+  margin: 3rem 0;
+  line-height: 1.5;
+  p {
+    margin-bottom: 15px;
+  }
+}
+.team {
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  img {
+    border: 1px solid #2d2d2d;
+    width: 180px;
+    height: 180px;
+  }
+  figcaption {
+    text-align: center;
+  }
+}
